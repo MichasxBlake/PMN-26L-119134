@@ -1,0 +1,9 @@
+Trzeba zainstalować używając: pip install
+pandas
+joblib
+matplotlib
+sklearn   (w tym przypadku trzeba użyć "scikit-learn" w pip install)
+
+Pliki iris:
+
+https://archive.ics.uci.edu/dataset/53/iris
