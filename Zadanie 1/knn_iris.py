@@ -11,7 +11,7 @@ scaler = MinMaxScaler()
 encoder = LabelEncoder()
 
 #ustawienei danych
-data_file = pd.read_csv('C:\\Users\\Admin\\folderfolder\\zad 1\\iris.data', header=None)     # !!! tutaj proszę ustawić swoją ścieżkę do iris.data Mi nie działało dlatego dałem bezpośrednią
+data_file = pd.read_csv( "C:\\Users\\Admin\\Desktop\\PMN-26L-119134\\Zadanie 1\\iris.data", header=None)     # !!! tutaj proszę ustawić swoją ścieżkę do iris.data Mi nie działało dlatego dałem bezpośrednią
 data = data_file.dropna()
 categ = data.iloc[:, 4]
 inf = data.iloc[:, :4]
