@@ -1,9 +1,7 @@
 torch
 torchvision
-scikit-learn
+numpy
 matplotlib
 seaborn
-numpy
 pandas
-
-po uruchomieniu będzie błąd braku danych, trzeba zmienić wartości w "download=False" na True (oba przypadki) potem można zmienić z powrotem na false
+sklearn
